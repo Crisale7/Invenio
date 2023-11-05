@@ -20,21 +20,26 @@ El registro de la entrada y salida de equipos es crucial para mantener un seguim
 # Diseño
 Request:
 
-PUT BASE_URL/api/v1/inventario/{producto_id}
-Content-Type: application/json
-{
-    "fecha_entrada": "timestamp",
-    "fecha_salida": "timestamp"
-}
+GET BASE_URL/api/v1/inventory
+Accept: Application/json
 
 Response: Exitoso statusCode: 200
 
-{
-    "message": "Registro de entrada/salida actualizado con éxito"
-}
+[
+    {
+        "producto_id": int,
+        "modelo_id": int,
+        "personal_id": int,
+        "serie": "string",
+        "estado": "char",
+        "fecha_entrada": "timestamp",
+        "fecha_salida": "timestamp"
+    },
+    ...
+]
 
 Response: Error statusCode: 400
 
 {
-    "message": "Información de entrada/salida inválida"
+    "message": "Error al obtener el listado de equipos"
 }
