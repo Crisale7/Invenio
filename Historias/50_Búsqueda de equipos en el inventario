@@ -20,7 +20,8 @@ La capacidad de buscar equipos específicos en el inventario permite a los usuar
 # Diseño
 Request:
 
-GET BASE_URL/api/v1/inventario/buscar?{producto_id}
+
+BASE_URL/api/v1/inventario/graficos?producto_id={producto_id}
 Accept: Application/json
 
 Response: Exitoso statusCode: 200
