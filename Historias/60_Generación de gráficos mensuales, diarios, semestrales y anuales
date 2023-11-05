@@ -20,7 +20,7 @@ La generación de gráficos basados en la actividad del inventario proporciona u
 # Diseño
 Request:
 
-GET BASE_URL/api/v1/inventario/graficos?periodo={periodo}
+GET BASE_URL/api/v1/inventario/graficos?{producto_id}
 Accept: Application/json
 
 Response: Exitoso statusCode: 200
