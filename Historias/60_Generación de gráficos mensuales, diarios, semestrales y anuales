@@ -1,0 +1,36 @@
+- Yo como: Administrador del inventario
+- Quiero: Generar gráficos que muestren la actividad del inventario en diferentes periodos de tiempo
+- Para: Tener una visión clara de la actividad del inventario y poder tomar decisiones informadas
+
+# Pendientes de definición
+¿Qué métricas deben incluirse en los gráficos?
+
+# Especificación de requerimientos
+1. El sistema debe permitir la generación de gráficos basados en la actividad del inventario.
+2. Los gráficos deben incluir métricas relevantes para la gestión del inventario.
+
+# Análisis
+La generación de gráficos basados en la actividad del inventario proporciona una visión visual clara de la actividad del inventario, lo que facilita la toma de decisiones informadas.
+
+# Criterios de aceptación
+- Dado: Que el administrador ha seleccionado un periodo de tiempo
+- Cuando: El administrador solicita la generación de un gráfico
+- Entonces: El sistema debe generar un gráfico que muestre la actividad del inventario durante ese periodo de tiempo
+
+# Diseño
+Request:
+
+GET BASE_URL/api/v1/inventario/graficos?periodo={periodo}
+Accept: Application/json
+
+Response: Exitoso statusCode: 200
+
+{
+    "datos_grafico": {...}
+}
+
+Response: Error statusCode: 400
+
+{
+    "message": "Error al generar los gráficos"
+}
