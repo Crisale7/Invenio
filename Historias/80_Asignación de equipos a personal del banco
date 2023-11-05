@@ -1,0 +1,40 @@
+- Yo como: Administrador del inventario
+- Quiero: Asignar equipos a personal del banco
+- Para: Asegurar que cada equipo en el inventario esté asignado a un empleado específico
+
+# Pendientes de definición
+1. ¿Se debe notificar al personal cuando se les asigna un equipo?
+
+# Especificación de requerimientos
+1. El sistema debe permitir la asignación de equipos a personal del banco.
+2. El sistema debe validar la información del personal antes de asignar un equipo.
+
+# Análisis
+La asignación de equipos a personal del banco es crucial para mantener un control adecuado de los equipos y para asegurar que cada equipo en el inventario esté asignado a un empleado específico.
+
+# Criterios de aceptación
+- Dado: Que el administrador ha seleccionado un equipo y un empleado
+- Cuando: El administrador intenta asignar el equipo al empleado
+- Entonces: El sistema debe validar la información y asignar el equipo si es correcta
+
+# Diseño
+Request:
+
+PUT BASE_URL/api/v1/inventario/{producto_id}
+Content-Type: application/json
+Authorization: Bearer JWT
+{
+    "personal_id": int
+}
+
+Response: Exitoso statusCode: 200
+
+{
+    "message": "Equipo asignado con éxito"
+}
+
+Response: Error statusCode: 400
+
+{
+    "message": "Información de asignación inválida"
+}
