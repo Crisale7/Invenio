@@ -1,21 +1,21 @@
-- Yo como: Administrador del inventario
-- Quiero: Registrar la entrada y salida de equipos en el inventario
-- Para: Mantener un seguimiento de los movimientos de los equipos
+- Yo como: Usuario del sistema Invenio
+- Quiero: Ver un listado de todos los equipos disponibles en el inventario
+- Para: Tener una visión general de los equipos disponibles
 
 # Pendientes de definición
-1. ¿Se debe notificar al personal asignado cuando se registra la salida de un equipo?
+1. ¿Se debe mostrar toda la información del equipo en el listado o solo algunos detalles clave?
 
 # Especificación de requerimientos
-1. El sistema debe permitir el registro de la entrada y salida de equipos en el inventario.
-2. El sistema debe validar la información del equipo antes de registrar la entrada o salida.
+1. El sistema debe proporcionar un listado de todos los equipos disponibles en el inventario.
+2. El listado debe incluir detalles clave de cada equipo.
 
 # Análisis
-El registro de la entrada y salida de equipos es crucial para mantener un seguimiento de los movimientos de los equipos en el inventario.
+Proporcionar un listado de todos los equipos disponibles en el inventario permite a los usuarios tener una visión general rápida de los equipos.
 
 # Criterios de aceptación
-- Dado: Que el administrador ha ingresado la información de la entrada o salida de un equipo
-- Cuando: El administrador intenta registrar la entrada o salida de un equipo en el inventario
-- Entonces: El sistema debe validar la información y registrar la entrada o salida si es correcta
+- Dado: Que el usuario ha ingresado al sistema
+- Cuando: El usuario navega a la página de inventario
+- Entonces: El sistema debe mostrar un listado de todos los equipos disponibles
 
 # Diseño
 Request:
