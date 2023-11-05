@@ -3,6 +3,7 @@
 Optimizar la gestión del inventario del banco mediante un sistema que permita un mejor control y visualización de los equipos.
 # Historias de usuario
 10. Ingreso al sistema.
+15. Registro de usario. 
 20. Registro de los equipos en el inventario.
 30. Listado de todos los equipos disponibles en el inventario.
 40. Registro de la entrada y salida de equipos.
