@@ -20,11 +20,11 @@ El ingreso al sistema es un paso crucial para garantizar que solo los usuarios a
 # Diseño
 Request:
 
-POST BASE_URL/api/v1/login
+POST BASE_URL/api/v1/ingreso
 Content-Type: application/json
 {
-    "username": "string",
-    "password": "string"
+    "usuario": "string",
+    "contraseña": "string"
 }
 
 Response: Exitoso statusCode: 200
