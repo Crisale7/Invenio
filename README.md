@@ -8,7 +8,7 @@ Optimizar la gestión del inventario del banco mediante un sistema que permita u
 30. Listado de todos los equipos disponibles en el inventario.
 40. Registro de la entrada y salida de equipos.
 50. Búsqueda de equipos en el inventario.
-60. Generación de gráficos mensuales, diarios, semestrales y anuales.
+60. Generación de gráficos.
 70. Gestión de la venta de equipos.
 80. Asignación de equipos a personal del banco.
 # Whish List
