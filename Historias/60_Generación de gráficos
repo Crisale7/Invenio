@@ -1,5 +1,5 @@
 - Yo como: Administrador del inventario
-- Quiero: Generar gráficos que muestren la actividad del inventario en diferentes periodos de tiempo
+- Quiero: Generar gráficos que muestren la actividad del inventario
 - Para: Tener una visión clara de la actividad del inventario y poder tomar decisiones informadas
 
 # Pendientes de definición
@@ -13,9 +13,9 @@
 La generación de gráficos basados en la actividad del inventario proporciona una visión visual clara de la actividad del inventario, lo que facilita la toma de decisiones informadas.
 
 # Criterios de aceptación
-- Dado: Que el administrador ha seleccionado un periodo de tiempo
+- Dado: Que el administrador ha seleccionado un articulo del inventario
 - Cuando: El administrador solicita la generación de un gráfico
-- Entonces: El sistema debe generar un gráfico que muestre la actividad del inventario durante ese periodo de tiempo
+- Entonces: El sistema debe generar un gráfico que muestre la actividad del articulo del inventario
 
 # Diseño
 Request:
