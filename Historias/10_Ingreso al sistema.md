@@ -12,6 +12,7 @@
 # Análisis
 El ingreso al sistema es un paso crucial para garantizar que solo los usuarios autorizados puedan administrar el inventario.
 
+
 # Criterios de aceptación
 - Dado: Que el usuario ha ingresado sus credenciales
 - Cuando: El usuario intenta ingresar al sistema
