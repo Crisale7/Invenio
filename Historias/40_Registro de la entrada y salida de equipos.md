@@ -11,6 +11,7 @@
 
 #Análisis
 El registro de la entrada y salida de equipos es crucial para mantener un seguimiento de los movimientos de los equipos en el inventario.
+Se presiona el boton editable correspondiente y se permite al usuario modificar "Fecha de Entrega", "Fecha de Salida" y "estado"
 ![image](https://github.com/Crisale7/Invenio/assets/93544993/df608ccc-2a6f-4cb1-bb6e-db6d4eca4021)
 
 
