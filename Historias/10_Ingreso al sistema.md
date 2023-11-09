@@ -11,7 +11,12 @@
 
 # Análisis
 El ingreso al sistema es un paso crucial para garantizar que solo los usuarios autorizados puedan administrar el inventario.
-![1](https://github.com/Crisale7/Invenio/assets/93544993/51799829-39b9-431b-92c7-15bb0142c354)
+Donde en caso de no tener una cuenta, se presiona el boton "Registrarse".
+En caso de querer registrarse o iniciar sesionn con Google, se presiona el boton "Ingrese sesion con Google"
+Finalmente en caso de ya poseer una cuenta, se ingresa el Usuario y la contraseña y presiona el boton "Iniciar sesion".
+En caso de olvidarse la contraseña, se presiona el apartado de azul "olvido la contraseña"
+![2](https://github.com/Crisale7/Invenio/assets/93544993/07627e2f-7382-4a6b-aac4-0b0c93e3078b)
+
 
 
 
