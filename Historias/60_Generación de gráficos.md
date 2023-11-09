@@ -11,6 +11,8 @@
 
 # Análisis
 La generación de gráficos basados en la actividad del inventario proporciona una visión visual clara de la actividad del inventario, lo que facilita la toma de decisiones informadas.
+Pare esta pantalla, solo es necesarioo presionar el apartado "Gráficos" y los mismos se verán desplegaods
+![image](https://github.com/Crisale7/Invenio/assets/93544993/5e18406a-6256-4fbb-90c4-7e8e7544aec2)
 
 # Criterios de aceptación
 - Dado: Que el administrador ha seleccionado un articulo del inventario
