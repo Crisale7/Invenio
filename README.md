@@ -10,7 +10,6 @@ Optimizar la gestión del inventario del banco mediante un sistema que permita u
 50. Búsqueda de equipos en el inventario.
 60. Generación de gráficos.
 70. Gestión de la venta de equipos.
-80. Asignación de equipos a personal del banco.
 # Whish List
 Implementar un sistema de notificaciones para alertar cuando un equipo ha estado en el inventario por un tiempo prolongado sin ser asignado.
 Implementar un sistema de recomendaciones para sugerir qué equipos podrían ser vendidos basándose en su tiempo en el inventario y su uso.
