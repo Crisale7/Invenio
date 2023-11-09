@@ -11,6 +11,9 @@
 
 # Análisis
 La capacidad de buscar equipos específicos en el inventario permite a los usuarios encontrar rápidamente los equipos que necesitan.
+simplemente se selecciona el tipo de busqueda que deseamos tener y prosteriormente ingresar el dato relacionado al tipo de busqueda deseado y finalmente presionar el boton "Buscar"
+![image](https://github.com/Crisale7/Invenio/assets/93544993/7cfbb867-bb97-4e0f-b8f4-c08e0ec93b3d)
+
 
 # Criterios de aceptación
 - Dado: Que el usuario ha ingresado una consulta de búsqueda
