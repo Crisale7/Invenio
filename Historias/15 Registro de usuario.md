@@ -28,10 +28,8 @@ Request:
 POST BASE_URL/api/v1/usuarios
 Content-Type: application/json
 {
-    "nombre": "string",
     "usuario": "string",
-    "contraseña": "string",
-    "cargo": "string"
+    "contraseña": "string"
 }
 
 Response: Exitoso statusCode: 201
