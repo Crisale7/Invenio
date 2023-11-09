@@ -12,7 +12,8 @@
 # Análisis
 El registro de equipos en el inventario es esencial para mantener un control adecuado de los equipos disponibles.
 Donde se debe llenar todos los apartados solicitados para el registro de un equipo y posteriormente presionar el boton "Guardar" o "Cancelar" Correspondiente
-![Uploading image.png…]()
+![image](https://github.com/Crisale7/Invenio/assets/93544993/3d4c7c9b-039d-4276-bb78-a412963ce5ce)
+
 
 
 
