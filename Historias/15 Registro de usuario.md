@@ -12,6 +12,10 @@
 
 #Análisis
 El registro de usuarios en el sistema es esencial para controlar el acceso al sistema y garantizar que solo los usuarios autorizados puedan utilizarlo.
+Donde solo sebe ingresar su Email y contraseña para posteriormente presionar el boton "enviar".
+En caso de querer registrarse con Google simplemente presionar el boton "Registrese con Google"
+![image](https://github.com/Crisale7/Invenio/assets/93544993/48c291d0-17a6-4d65-8810-b8131977194d)
+
 
 #Criterios de aceptación
 - Dado: Que el administrador ha ingresado la información del usuario
