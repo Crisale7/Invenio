@@ -26,12 +26,16 @@ Request:
 POST BASE_URL/api/v1/inventario
 Content-Type: application/json
 {
-    "modelo_id": int,
-    "personal_id": int,
-    "serie": "string",
+    "serie": varchar,
+    "tipo_producto": varchar,
+    "modelo": "varchar",
     "estado": "char",
     "fecha_entrada": "timestamp",
-    "fecha_salida": "timestamp"
+    "fecha_salida": "timestamp",
+    "usuario_id": "timestamp",
+    "ram": "varchar",
+    "memoria": "varchar",
+    "procesador": "varchar",
 }
 
 Response: Exitoso statusCode: 201
