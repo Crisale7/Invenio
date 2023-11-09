@@ -1,6 +1,6 @@
 # Historias de usuario para Invenio
 # Valor
-Optimizar la gestión del inventario del banco mediante un sistema que permita un mejor control y visualización de los equipos.
+Optimizar la gestión del inventario del banco mediante un sistema de activos fijos que permita un mejor control y visualización de los equipos.
 # Historias de usuario
 10. Ingreso al sistema.
 15. Registro de usario. 
