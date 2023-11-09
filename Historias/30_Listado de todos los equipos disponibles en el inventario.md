@@ -11,6 +11,7 @@
 
 # Análisis
 Proporcionar un listado de todos los equipos disponibles en el inventario permite a los usuarios tener una visión general rápida de los equipos.
+![image](https://github.com/Crisale7/Invenio/assets/93544993/cbfc99b9-17bf-4c18-a951-788eec65c163)
 
 # Criterios de aceptación
 - Dado: Que el usuario ha ingresado al sistema
