@@ -11,6 +11,8 @@
 
 #Análisis
 El registro de la entrada y salida de equipos es crucial para mantener un seguimiento de los movimientos de los equipos en el inventario.
+![image](https://github.com/Crisale7/Invenio/assets/93544993/df608ccc-2a6f-4cb1-bb6e-db6d4eca4021)
+
 
 #Criterios de aceptación
 - Dado: Que el administrador ha ingresado la información de la entrada o salida de un equipo
@@ -23,6 +25,7 @@ Request:
 PUT BASE_URL/api/v1/inventario/{producto_id}
 Content-Type: application/json
 {
+    "estado": "char",
     "fecha_entrada": "timestamp",
     "fecha_salida": "timestamp"
 }
