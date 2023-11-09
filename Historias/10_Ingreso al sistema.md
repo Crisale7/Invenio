@@ -11,6 +11,9 @@
 
 # Análisis
 El ingreso al sistema es un paso crucial para garantizar que solo los usuarios autorizados puedan administrar el inventario.
+![1](https://github.com/Crisale7/Invenio/assets/93544993/51799829-39b9-431b-92c7-15bb0142c354)
+
+
 
 
 # Criterios de aceptación
