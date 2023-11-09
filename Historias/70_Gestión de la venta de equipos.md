@@ -11,6 +11,7 @@
 
 # Análisis
 La gestión de las ventas de equipos es crucial para mantener un registro preciso de las ventas y para asegurar que los equipos vendidos se retiren del inventario.
+![image](https://github.com/Crisale7/Invenio/assets/93544993/f89193b2-9cdf-4162-b801-348bba21315e)
 
 # Criterios de aceptación
 - Dado: Que el administrador ha marcado un equipo como vendido
